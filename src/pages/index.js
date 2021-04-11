@@ -8,7 +8,7 @@ const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home" />
-      <h3>I'm Andrew 👋 this is a short blog of my journey learning React</h3>
+      <h3>I'm Andrew 👋 this is a blog of my journey learning React</h3>
       <img src={meme2} alt="meme2" />
       <p>
         This blog site was put together using Gatsby with a Contentful CMS. All

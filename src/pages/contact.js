@@ -11,7 +11,7 @@ const Contact = () => {
         <p>Email - tattwo@live.com</p>
         <p>
           Follow me on{" "}
-          <a href="https://github.com/" target="_blank">
+          <a href="https://github.com/AndrewTattersall" target="_blank">
             Github
           </a>
         </p>
