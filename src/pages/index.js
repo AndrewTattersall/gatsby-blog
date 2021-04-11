@@ -2,15 +2,17 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
+import meme2 from "../images/meme2.jpg"
 
 const IndexPage = () => {
   return (
     <Layout>
       <Head title="Home" />
-      <h1>Hello</h1>
-      <h2>I'm Andrew, a web developer living in Manchester.</h2>
+      <h3>I'm Andrew 👋 this is a short blog of my journey learning React</h3>
+      <img src={meme2} alt="meme2" />
       <p>
-        Need a developer? <Link to="/contact">Contact Me</Link>{" "}
+        This blog site was put together using Gatsby with a Contentful CMS. All
+        posts from this site are generated from Contentful.
       </p>
     </Layout>
   )

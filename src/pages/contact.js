@@ -7,9 +7,8 @@ const Contact = () => {
     <div>
       <Layout>
         <Head title="Contact" />
-        <h1>Contact </h1>
+        <h3>Contact </h3>
         <p>Email - tattwo@live.com</p>
-        <p>Mobile - 07464781785</p>
         <p>
           Follow me on{" "}
           <a href="https://github.com/" target="_blank">

@@ -6,7 +6,7 @@
 
 module.exports = {
   siteMetadata: {
-    title: "Blog Site",
+    title: "React.js blog",
     author: "Andrew Tattersall",
   },
   /* Your site config here */

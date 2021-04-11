@@ -1,5 +1,6 @@
 import React from "react"
 import { Link, graphql, useStaticQuery } from "gatsby"
+import Logo from "../images/logo.png"
 
 import * as headerStyles from "./header.module.scss"
 
@@ -24,6 +25,7 @@ const Header = () => {
         >
           {data.site.siteMetadata.title}
         </Link>
+        <img src={Logo} alt="logo" className={headerStyles.logo} />
       </h1>
       <nav>
         <ul className={headerStyles.navList}>
