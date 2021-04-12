@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import Layout from "../components/layout"
 import Head from "../components/head"
-import meme2 from "../images/meme2.jpg"
+import meme2 from "../images/react.png"
 
 const IndexPage = () => {
   return (
